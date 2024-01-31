@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-csv_path = r"C:\Users\dandrezze26\Documents\Python\streamlit\movies\movie.csv"
+csv_path = r"movie.csv"
 data = pd.read_csv(csv_path)
 
 # st.write(data)
