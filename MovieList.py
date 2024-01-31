@@ -14,6 +14,16 @@ with st.sidebar:
     released_year_max = st.sidebar.text_input('Released year (Max): ', '')
     vote_averages_min = st.sidebar.text_input('Vote averages (Min): ', '')
     vote_averages_max = st.sidebar.text_input('Vote averages (Max): ', '')
+    reset_button = st.sidebar.button("Reset")
+
+filter = st.empty()
+
+if reset_button:
+    search_query_title = ''
+    released_year_min = ''
+    released_year_max = ''
+    vote_averages_min = ''
+    vote_averages_max = ''
 
 filter = st.empty()
 
